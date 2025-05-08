@@ -1,7 +1,8 @@
 import <iostream>;
 
 int main() {
+  using namespace std;
   int i;
-  while(std::cin >> i) std::cout << i << std::endl;
+  while(cin >> i) cout << i << endl;
   return 0;
 }
